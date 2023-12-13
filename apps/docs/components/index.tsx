@@ -25,6 +25,7 @@ import KotlinProjectSetup from './MDX/kotlin_project_setup.mdx'
 import MigrationWarnings from './MDX/migration_warnings.mdx'
 import { CH } from '@code-hike/mdx/components'
 import RefHeaderSection from './reference/RefHeaderSection'
+import { ProjectConfigVariables } from './ProjectConfigVariables'
 
 // Ref version specific
 import CliGlobalFlagsHandler from '~/components/reference/enrichments/cli/CliGlobalFlagsHandler'
@@ -77,6 +78,7 @@ const components = {
   SocialProviderSetup,
   SocialProviderSettingsSupabase,
   StepHikeCompact,
+  ProjectConfigVariables,
   StorageManagement,
   Mermaid,
   Extensions,
