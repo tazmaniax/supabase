@@ -1,11 +1,6 @@
-import { find, isUndefined, isEqual, isNull } from 'lodash'
+import { find, isEqual, isNull } from 'lodash'
 import { Dictionary } from 'types'
-import type {
-  PostgresColumn,
-  PostgresRelationship,
-  PostgresTable,
-  PostgresType,
-} from '@supabase/postgres-meta'
+import type { PostgresColumn, PostgresTable } from '@supabase/postgres-meta'
 
 import { uuidv4 } from 'lib/helpers'
 import {

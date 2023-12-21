@@ -1,4 +1,3 @@
-import dayjs from 'dayjs'
 import { filterFunctionsRequestResponse } from 'lib/logs'
 import { PreviewLogData } from '..'
 import { LOGS_TAILWIND_CLASSES } from '../Logs.constants'
@@ -60,13 +59,6 @@ const FunctionInvocationSelectionRender = ({ log }: { log: PreviewLogData }) => 
       </div>
     </>
   )
-}
-
-export const FunctionInvocationHeaderRender = (log: any) => {
-  const method = log?.method
-  const path = log?.request?.url
-
-  return `${method} ${path}`
 }
 
 export default FunctionInvocationSelectionRender
